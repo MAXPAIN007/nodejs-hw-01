@@ -12,7 +12,7 @@ export const removeLastContact = async () => {
     await writeContacts(currentData);
     console.log(`The last contact was deleted. Left: ${currentData.length}`);
   } catch (error) {
-    console.error('An error wist deleting last contact:', error);
+    console.error('An error with deleting last contact:', error);
   }
 };
 
